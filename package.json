@@ -1,0 +1,13 @@
+{
+  "name": "news-feed",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npm run test-unit",
+    "test-unit": "NODE_ENV=test mocha 'lib/*.spec.js'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
